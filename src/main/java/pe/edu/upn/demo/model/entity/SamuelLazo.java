@@ -28,7 +28,7 @@ public class SamuelLazo {
 	private Integer edad;
 	
 	
-	@Column(name = "fecha}_nacimiento")
+	@Column(name = "fecha_nacimiento")
 	@Temporal(TemporalType.DATE)
 	private Date fechaNacimiento;
 	
